@@ -1,0 +1,20 @@
+#include<stdio.h>
+struct complex{
+    double real;
+    double imagin;
+}no1, no2, no3;
+
+int main(){
+    printf("Enter the real part of no1: ");
+    scanf("%lf",&no1.real);
+    printf("Enter the imaginary part of no1: ");
+    scanf("%lf",&no1.imagin);
+    printf("Enter the real part of no2: ");
+    scanf("%lf",&no2.real);
+    printf("Enter the imaginary part of no2: ");
+    scanf("%lf",&no2.imagin);
+    no3.real=no1.real*no2.real;
+    no3.imagin=no1.imagin*no2.imagin;
+    printf("Multiplication = %lf + %lfi",no3.real,no3.imagin);
+    return 0;
+}
